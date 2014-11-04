@@ -2,18 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Code Examples - HTML &amp; CSS Visual Quickstart Guide (Eighth Edition)</title>
+	<title>HTML &amp; CSS Visual Quickstart Guide (Eighth Edition)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" /> -->
-	<link rel="stylesheet" href="../../cmn/css/normalize.css" />
-	<link rel="stylesheet" href="../../cmn/css/base-v2.css" />	
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/code-examples.css" />
 
 	<!--[if lt IE 9]>
-	<script src="../../cmn/js/html5shiv.js"></script>
-	<script src="../../cmn/js/respond.min.js"></script>
+	<script src="js/html5shiv.js"></script>
 	<![endif]-->
-
-	<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
 </head>
 <body class="examples">
 <div class="container">
@@ -21,7 +17,7 @@
 <header role="banner">
 	<p class="series">Visual <span>Quickstart</span> Guide</p>
 	
-	<div id="masthead" class="clearfix">
+	<div class="masthead clearfix">
 		<p class="title"><a href="/">HTML and CSS</a> <small>Eighth Edition</small></p>
 	
 		<p class="authors">Elizabeth Castro <span>&#8226;</span> Bruce Hyslop</p>
@@ -30,20 +26,34 @@
 <!-- end masthead -->
 
 <!-- ===== START NAV ===== -->
-<div class="sidebar nav">
+<div class="sidebar nav">	
+	<a href="http://www.peachpit.com/store/html-and-css-visual-quickstart-guide-9780321928832" rel="external"><img src="img/cover-sm-htmlcssvqs-8ed.jpg" width="160" height="206" alt="&quot;HTML and CSS, Eight Edition: Visual QuickStart Guide book cover" /></a>
+	
+	<h2 id="chapters-list">Code Chapters:</h2>
+	
 	<nav role="navigation">
 		<ul>
-			<li><a href="/">Home</a></li>
-			<li class="viewing">Code Examples</li>
-			<li><a href="/8ed/appendixes/html-reference.php">HTML Reference</a></li>
-			<li><a href="/8ed/appendixes/css-reference.php">CSS Reference</a></li>
-			<li><a href="/8ed/errata/">Errata</a></li>
-			<li><a href="http://www.peachpit.com/store/html-and-css-visual-quickstart-guide-9780321928832" rel="external" title="To peachpit.com purchase page">Buy the Book</a></li>
+			<li><a href="#chapter-1" title="Chapter 1 code">01</a></li>
+			<li><a href="#chapter-3" title="Chapter 3 code">03</a></li>
+			<li><a href="#chapter-4" title="Chapter 4 code">04</a></li>
+			<li><a href="#chapter-5" title="Chapter 5 code">05</a></li>
+			<li><a href="#chapter-6" title="Chapter 6 code">06</a></li>
+			<li><a href="#chapter-7" title="Chapter 7 code">07</a></li>
+			<li><a href="#chapter-8" title="Chapter 8 code">08</a></li>
+			<li><a href="#chapter-9" title="Chapter 9 code">09</a></li>
+			<li><a href="#chapter-10" title="Chapter 10 code">10</a></li>
+			<li><a href="#chapter-11" title="Chapter 11 code">11</a></li>
+			<li><a href="#chapter-12" title="Chapter 12 code">12</a></li>
+			<li><a href="#chapter-13" title="Chapter 13 code">13</a></li>
+			<li><a href="#chapter-14" title="Chapter 14 code">14</a></li>
+			<li><a href="#chapter-15" title="Chapter 15 code">15</a></li>
+			<li><a href="#chapter-16" title="Chapter 16 code">16</a></li>
+			<li><a href="#chapter-17" title="Chapter 17 code">17</a></li>
+			<li><a href="#chapter-18" title="Chapter 18 code">18</a></li>
+			<li><a href="#chapter-19" title="Chapter 19 code">19</a></li>
+			<li><a href="#chapter-20" title="Chapter 20 code">20</a></li>
 		</ul>
 	</nav>
-	
-	<a href="http://www.peachpit.com/store/html-and-css-visual-quickstart-guide-9780321928832" rel="external"><img src="../../cmn/img/cover-sm-htmlcssvqs-8ed.jpg" width="160" height="206" alt="&quot;HTML and CSS, Eight Edition: Visual QuickStart Guide book cover" /></a>
-	<!-- end book info -->
 </div>
 <!-- end nav -->
 
@@ -53,42 +63,13 @@
 	<h1>Code Examples</h1>
 
 	<header>
-		<p><em>Last update: <time datetime="2013-10-20">Oct 20, 2013</time></em></p>
-		<p class="intro">Scroll down the page or select a chapter from the list to view the code examples.</p>
-		
-		<ol class="chapters" id="chapters-list">
-			<li><a href="#chapter-1">Chapter 01</a></li>
-			<li><a href="#chapter-3">Chapter 03</a></li>
-			<li><a href="#chapter-4">Chapter 04</a></li>
-			<li><a href="#chapter-5">Chapter 05</a></li>
-			<li><a href="#chapter-6">Chapter 06</a></li>
-			<li><a href="#chapter-7">Chapter 07</a></li>
-			<li><a href="#chapter-8">Chapter 08</a></li>
-			<li><a href="#chapter-9">Chapter 09</a></li>
-			<li><a href="#chapter-10">Chapter 10</a></li>
-			<li><a href="#chapter-11">Chapter 11</a></li>
-			<li><a href="#chapter-12">Chapter 12</a></li>
-			<li><a href="#chapter-13">Chapter 13</a></li>
-			<li><a href="#chapter-14">Chapter 14</a></li>
-			<li><a href="#chapter-15">Chapter 15</a></li>
-			<li><a href="#chapter-16">Chapter 16</a></li>
-			<li><a href="#chapter-17">Chapter 17</a></li>
-			<li><a href="#chapter-18">Chapter 18</a></li>
-			<li><a href="#chapter-19">Chapter 19</a></li>
-			<li><a href="#chapter-20">Chapter 20</a></li>
-		</ol>
-		
-		<p>Or</p>
-		
-		<p class="btn"><a href="htmlcss-vqs8-code-examples-v2.zip">Download All Code Examples</a> <span>[ZIP, 17.5 MB]</span></p>
-
-		<p><small>(The primary reason the ZIP is so large is the media files used by examples in Chapter 6 and Chapter 17.)</small></p>
+		<p class="intro">Scroll down the page or select a chapter from the left to view the code examples.</p>
 		
 		<div class="note">
 			<p><strong>Notes:</strong></p>
 		
 			<ul>
-				<li>The page numbers shown below aren't necessarily accurate if you have either the <abbr title="electronic publication">EPUB</abbr> or Kindle version of the book, because pages flow differently in those formats.</li>
+				<li>The page numbers shown below aren't necessarily accurate if you have either the <abbr title="electronic publication">EPUB</abbr> or Kindle version of the book, because pages may flow differently in those formats.</li>
 				<li>"Fig" is short for "Figure" and "Figs" is short for "Figures."</li>
 				<li>An item marked as an "Extra" represents an example that doesn't appear in the book.</li>
 				<li>Chapters 2 and 21 aren't shown because they don't contain any examples.</li>
@@ -652,14 +633,14 @@
 			<p><span>Page 413, Fig A:</span> <a href="chapter-16/form.html">form.html</a> (This is the main form discussed throughout the chapter.)</p>
 			<p><span>Page 414, Fig B:</span> <a href="chapter-16/css/form.css">form.css</a></p>
 		</li>
-		<li id="form-scripts">Processing Forms
-				<p><span class="extra">Extra (referenced on Page 416, Fig A):</span> <a href="chapter-16/show-data.txt">show-data.txt</a></p>
+		<li>Processing Forms
+				<p><span class="extra">Extra (referenced on Page 416, Fig A):</span> <a href="chapter-16/show-data.php">show-data.php</a></p>
 
-				<p class="note-about-file"><strong>NOTE:</strong> This sample PHP script collects the information submitted with <code>form.html</code> and displays it in your browser. You will need to change the name of this file to <code>show-data.php</code> and put the file on a web server for it to work. Open this file in your text editor and read the comment that begins with "TO TEST THIS SCRIPT" for additional important instructions. You may also view that comment in your browser by activating the link to <code>show-data.txt</code> directly above this note.</p>
+				<p class="note-about-file"><strong>NOTE:</strong> This sample PHP script collects the information submitted with <code>form.html</code> and displays it in your browser. You will need to put the file on a web server for it to work. Open this file in your text editor and read the comment that begins with "TO TEST THIS SCRIPT" for additional important instructions.</p>
 
-				<p><span class="extra">Extra (referenced on Page 416, Fig A):</span> <a href="chapter-16/email-data.txt">email-data.txt</a></p>
+				<p><span class="extra">Extra (referenced on Page 416, Fig A):</span> <a href="chapter-16/email-data.php">email-data.php</a></p>
 
-				<p class="note-about-file"><strong>NOTE:</strong> This sample PHP script collects the information submitted with the form and emails it to the email addresses you specify in the script. You will need to change the name of this file to <code>email-data.php</code> and put it on a web server for it to work. Open this file in your text editor and read the comment that begins with "TO TEST THIS SCRIPT" for additional important instructions. You may also view that comment in your browser by activating the link to <code>email-data.txt</code> directly above this note.</p>
+				<p class="note-about-file"><strong>NOTE:</strong> This sample PHP script collects the information submitted with the form and emails it to the email addresses you specify in the script. You will need to put it on a web server for it to work. Open this file in your text editor and read the comment that begins with "TO TEST THIS SCRIPT" for additional important instructions.</p>
 		</li>
 		<li>Disabling Form Elements
 			<p><span>Page 444, Fig A:</span> <a href="chapter-16/disabled.html">disabled.html</a></p>
@@ -743,7 +724,7 @@
 			<p><span>Page 487, Fig A:</span> <a href="chapter-19/load-before-body-end-tag.html">load-before-body-end-tag.html</a></p>
 			<p><span class="extra">Extra:</span> <a href="chapter-19/load-before-body-end-tag-subfolder.html">load-before-body-end-tag-subfolder.html</a> (preferred; it loads the JS from a sub-folder)</p>
 			<p><span>Page 487, Fig B:</span> <a href="chapter-19/load-in-head.html">load-in-head.html</a></p>
-			<p id="script-with-comments"><span>Page 488, Fig C:</span> <a href="chapter-19/js/sample-script.js">js/sample-script.js</a> (nearly identical to <code>toggle-textarea.js</code> in <a href="#chapter-16">Chapter 16</a>)</p>
+			<p id="script-with-comments"><span>Page 488, Fig C:</span> <a href="chapter-19/js/sample-script.js">js/sample-script.js</a></p>
 			<p><span>Page 489, Fig D:</span> <a href="chapter-19/js/sample-script.min.js">js/sample-script.min.js</a></p>
 		</li>
 		<li>Adding an Embedded Script
