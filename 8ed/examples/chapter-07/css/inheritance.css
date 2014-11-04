@@ -1,0 +1,19 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+div {
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 0 1em .25em;
+}
+
+p {
+	color: #36c; /* a blue color */
+	font-weight: bold;
+}
+
+img {
+	float: left;
+	margin-right: 1em;
+}

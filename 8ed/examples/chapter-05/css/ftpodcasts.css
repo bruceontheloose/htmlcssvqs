@@ -1,0 +1,14 @@
+/* Basic styling for favicon.html. */
+
+body {
+	color: #eb7b31;
+	font: 100% sans-serif;
+	width: 60%;
+}
+
+cite { 
+	color: #84601c;
+	font-style: normal;
+	font-weight: bold;
+}
+

@@ -1,4 +1,4 @@
-htmlcssvqs
-==========
+htmlcssvqs.com
+==============
 
-Site for "HTML and CSS: Visual QuickStart Guide."
+Site for <cite>HTML and CSS: Visual QuickStart Guide.<cite>

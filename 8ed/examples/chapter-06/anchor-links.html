@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Creating and Linking to Anchors</title>
+</head>
+<body>
+
+<article>
+	<header>
+		<h1>Frequently Asked Questions (FAQ)</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="#question-01">Can an id have more than one word?</a></li>
+				<li><a href="#question-02">Can visitors bookmark anchor links?</a></li>
+				<li><a href="#question-03">My anchor link isn't working. What am I doing wrong?</a></li>
+				<li><a href="#question-04">How do I link to a specific part of someone else's webpage?</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<h2 id="question-01">Can an id have more than one word?</h2>
+	<p>Yes, your ids can have more than one word as long as there are no spaces. Separate each word with a dash instead.</p>
+
+	<h2 id="question-02">Can visitors bookmark anchor links?</h2>
+	<p>Yes, they can! And when they visit that link, the browser will jump down to the anchor as expected. Visitors can share the link with others, too, so all the more reason to choose meaningful anchor names.</p>
+
+	<h2 id="question-03">My anchor link isn't working. What am I doing wrong?</h2>
+	<p>The problem could be a few things. First, double-check that you added an id (without "#") to the element your link should point to. Also, be sure that the anchor in your link <em>is</em> preceded by "#" and that it matches the anchor id.</p>
+
+	<h2 id="question-04">How do I link to a specific part of someone else's webpage?</h2>
+	<p>Although you obviously can't add anchors to other people's pages, you can take advantage of the ones that they have already created. View the source code of their webpage to see if they've included an id on the part of the page you want to link to. (For help viewing source code, consult "The Inspiration of Others" in Chapter 2.) Then create a link that includes the anchor.</p>
+</article>
+
+</body>
+</html>

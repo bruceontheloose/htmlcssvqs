@@ -1,0 +1,35 @@
+/* A little font and spacing treatment */
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.hdg {
+	font-size: 1.25em;
+	margin-bottom: 0;
+}
+
+.hdg + ol {
+	margin-top: .5em;
+}
+
+/* Define markers */
+ol {
+	list-style-type: upper-roman;
+}
+
+.level2 {
+	list-style-type: upper-alpha;
+}
+
+.level3 {
+	list-style-type: decimal;
+}
+
+/* Font sizing */
+ol li {
+	font-size: .875em;
+}
+
+li li {
+	font-size: 1em;
+}

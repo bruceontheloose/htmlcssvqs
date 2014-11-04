@@ -1,0 +1,21 @@
+/* Note: This body rule doesn't appear in the book. It's here to dress up the example slightly. */
+body {
+	font-size: 112.5%;
+	line-height: 1.35;
+}
+
+p {
+	color: red;
+}
+
+.example {
+	color: blue;
+}
+
+.example.example-2 {
+	color: magenta; /* negated by next rule */
+}
+
+.example.example-2 {
+	color: green;
+}

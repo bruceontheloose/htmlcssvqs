@@ -1,0 +1,11 @@
+/* 
+This example doesn't appear in the book. It's a simple demonstration of how to include both a fallback and alpha transparent background color in the same rule. The principle is the same as the rule for p in Figure O, except this background color is rgba instead of hsla.
+
+The order of the background declarations is important. Older versions of IE use the first line (rendering a solid background color as a result), and modern browsers understand both lines but apply the second because it's last.
+*/
+
+h1 {
+	background-color: #59007f; /* solid purple fallback */
+	background-color: rgba(89,0,127,0.75); /* same color but 25% transparent */
+}
+

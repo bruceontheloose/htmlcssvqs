@@ -1,0 +1,48 @@
+# System
+# ========================================================================== #
+
+.DS_Store
+Thumbs.db
+.sass-cache
+
+*.log
+*.dat
+
+# Security
+# ========================================================================== #
+
+*rsa
+*rsa.pub
+*.pub
+
+# Binaries
+# ========================================================================== #
+
+# Ignore large binary files: video, audio, etc.
+# Add to this list as necessary.
+
+*.ogx
+*.wav
+*.avi
+*.h264
+*.mkv
+
+# *.ogv
+# *.oga
+# *.ogg
+# *.webm
+# *.m4v
+# *.mp3
+# *.mp4
+
+
+# Directories
+# ========================================================================== #
+
+# Add directories on a per-project basis.
+
+# Project
+# ========================================================================== #
+
+*.sublime-*
+Makefile

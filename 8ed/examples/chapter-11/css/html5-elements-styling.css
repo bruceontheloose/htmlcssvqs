@@ -1,0 +1,15 @@
+﻿/* 
+Style new "block-level-like" HTML5 elements so they occupy their own line in older browsers. 
+Modern browsers does this default. 
+*/
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main, 
+nav,
+section {
+	display: block;
+}

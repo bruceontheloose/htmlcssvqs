@@ -1,0 +1,14 @@
+/* Print Styles */
+
+body {
+	/* 
+	make text larger. 
+	notice the use of the pt (point) unit. using pt is appropriate for print style sheets.
+	*/
+	font-size: 25pt;
+}
+
+img {
+	/* don't show images */
+	display: none;
+}

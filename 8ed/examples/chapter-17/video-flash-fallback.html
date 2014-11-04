@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5 Media with Fallback Flash Player: Video</title>	
+	
+	<!-- These files are required to use MediaElement.js for audio or video with a Flash fallback -->
+	<script src="build/jquery.js"></script>	
+	<script src="build/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="build/mediaelementplayer.min.css" />
+
+	<style>
+	/* NOTE: I recommend putting your styles in an external style sheet. I embedded this CSS to simplify the example. These styles don't affect the appearance of the video player, just the text around it. */
+	body { font-family: sans-serif; }
+
+	h1 {
+		border-bottom: 1px solid #000;
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1em;
+		margin: 30px 0 10px;
+	}
+
+	p {
+		line-height: 1.4;
+	}
+
+	</style>
+</head>
+<body>
+
+<h1>Video Player with MediaElementPlayer.js Fallback</h1>
+
+<video width="369" height="208" preload="metadata" controls>
+	<source src="paddle-steamer.mp4" type="video/mp4">
+	<source src="paddle-steamer.webm" type="video/webm">
+	<p>Your browser doesn't support HTML5 video or Flash, but you can <a href="paddle-steamer.mp4">download the video</a> (MP4, 2.4 MB).</p>
+</video>
+
+<script>
+$('video').mediaelementplayer();
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    font-family: 'PTSans', sans-serif;
+    font-size: 100%;
+    line-height: 1.25;
+}
+
+em {
+    font-weight: bold;
+}
+
+/* Regular text */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../css/font/PTS55F-webfont.eot');
+    src: url('../css/font/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/font/PTS55F-webfont.woff') format('woff'),
+         url('../css/font/PTS55F-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Italic text */
+@font-face {
+    font-family: 'PTSans';
+    src: url('font/PTS56F-webfont.eot');
+    src: url('font/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTS56F-webfont.woff') format('woff'),
+         url('font/PTS56F-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Bold text */
+@font-face {
+    font-family: 'PTSans';
+    src: url('font/PTS75F-webfont.eot');
+    src: url('font/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTS75F-webfont.woff') format('woff'),
+         url('font/PTS75F-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bold Italic text */
+@font-face {
+    font-family: 'PTSans';
+    src: url('font/PTS76F-webfont.eot');
+    src: url('font/PTS76F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTS76F-webfont.woff') format('woff'),
+         url('font/PTS76F-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+

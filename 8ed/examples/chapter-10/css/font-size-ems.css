@@ -1,0 +1,36 @@
+body {
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	font-size: 100%; /* 16px */
+}
+ 	
+h1,
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.1875em; /* 35px/16px */
+}
+ 
+h2 {
+	font-size: 1.75em; /* 28px/16px */
+}
+
+em,
+a:link,
+.intro .subhead {
+	font-weight: bold;
+}
+
+.intro .subhead {
+	font-size: 1.125em; /* 18px/16px */
+}
+
+.intro p {
+	font-size: 1.0625em; /* 17px/16px */
+}
+
+.project p {
+	font-size: .9375em; /* 15px/16px */
+}

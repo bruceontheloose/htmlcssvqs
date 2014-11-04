@@ -1,0 +1,1 @@
+	<a href="http://www.peachpit.com/store/html-and-css-visual-quickstart-guide-9780321928832" rel="external"><img src="/cmn/img/cover-sm-htmlcssvqs-8ed.jpg" width="160" height="206" alt="&quot;HTML and CSS, Eight Edition: Visual QuickStart Guide book cover" /></a>

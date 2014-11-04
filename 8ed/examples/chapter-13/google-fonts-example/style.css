@@ -1,0 +1,49 @@
+body {
+    font: 100%/1.2 Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.25em; /* 52px/16px */
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: .975;
+    margin-bottom: .4125em;
+}
+
+h2 {
+    border-bottom: 1px solid #dbdbdb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875em; /* 15px/16px */
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: .75em;
+}
+
+/* Other */
+main {
+    display: block;
+}
+
+p {
+    color: #555;
+    line-height: 1.4;
+}
+
+.posts {
+    list-style: none;
+    margin: 1.5em 0 0;
+    padding: 0;
+    width: 16.875em; /* 270px/16px */
+}
+
+.posts li {
+    font-size: 1.1em;
+    margin-bottom: 1.1em;
+}
+
+a {
+    color: #1263a5;
+    text-decoration: none;
+}

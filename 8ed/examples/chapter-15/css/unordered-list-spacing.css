@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+}
+
+.hdg {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.hdg + ul,
+.hdg + ol { /* works for either ul or ol because of two selectors */
+	margin-top: .5em; /* 8px/16px */
+}
+
+ul { /* reduce indentation */
+	margin-left: 0; /* for <=IE7 (that is, IE7 and earlier versions) */
+	padding-left: 18px; /* or 1.125em because 18px/16px = 1.125 */
+}
+ 
+ul li {
+	/* space between each item in list */
+	margin-top: .4em; /* 6px/16px */
+}

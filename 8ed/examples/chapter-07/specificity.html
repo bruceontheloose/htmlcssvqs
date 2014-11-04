@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Specificity</title>
+	<!-- The following line loads the style sheet that contains the styles shown in Figure A. Note that in Figure B the book, the following line appears as:
+
+		<link rel="stylesheet" href="style.css" />
+
+	For this example on the book site, I renamed the style sheet to specificity.css and placed it in a subfolder named css; hence the href path of css/specificity.css.
+	-->
+	<link rel="stylesheet" href="css/specificity.css" />
+</head>
+<body>
+<p>Here's a generic <code>p</code> element. It will be red.</p>
+
+<p class="example">Here's a <code>p</code> element with a <code>class</code> of <code>example</code>. There are two rules that could apply, but since the <code>.example</code> selector is more specific, this paragraph will be blue.</p>
+
+<p class="example example-2">Here’s a <code>p</code> element with two classes: <code>example</code> and <code>example-2</code>. There are four rules that could apply to this paragraph. The first two are overruled by the more specific last two. However, because the last two have the same selector, the order breaks the tie between them: the one that appears later wins, and thus this paragraph will be green instead of magenta.</p>
+</body>
+</html>

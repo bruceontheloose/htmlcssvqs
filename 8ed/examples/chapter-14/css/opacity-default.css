@@ -1,0 +1,17 @@
+body {
+	background: #a2735f;
+	padding: 20px;
+}
+
+img {
+	display: block;
+}
+
+/* Without the opacity set explicitly, it defaults to 1, 
+so the box displays normally. In other words, omitting 
+opacity and including opacity: 1; are the same. */
+.box {
+	background: #000;
+	padding: 20px;
+	width: 420px;
+}
